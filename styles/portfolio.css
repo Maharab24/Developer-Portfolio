@@ -108,6 +108,11 @@ header {
 
 /*main section style*/
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /*about section style*/
 .about {
     padding: 130px;
@@ -124,4 +129,23 @@ header {
     font-weight: 400;
 
     text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+
+    color: rgb(117, 117, 117);
+
+    font-size: 18px;
+    font-weight: 400;
+}
+.info-description{
+    font-weight: 700;
 }
