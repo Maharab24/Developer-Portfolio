@@ -185,4 +185,34 @@ padding: 20px;
 
 .download-cv{
     text-align: center;
+    margin-top: 100px;
+}
+
+/*Footer section*/
+footer{
+    display: flex;
+   padding: 100px 100px ;
+    background: rgb(255, 248, 243);
+    margin-top: 100px;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+
+.footer-column input[type="text"],input[type="email"],textarea{
+    display: block;
+    border-radius: 5px;
+
+
+    margin-bottom: 25px;
+    border: none;
+    padding: 18px 35px;
+    width: 100%;
+
+}
+
+.icon img{
+    margin-right: 20px;
 }
