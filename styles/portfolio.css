@@ -113,6 +113,10 @@ main{
     margin: 0 auto;
 }
 
+main>section{
+    margin-top: 100px;
+}
+
 /*about section style*/
 .about {
     padding: 130px;
@@ -158,6 +162,7 @@ main{
 /*Skill Section*/
 .skill{
     display: flex;
+    gap: 24px;
 }
 .skill-container{
     border-radius: 20px;
@@ -166,5 +171,14 @@ width: 267px;
 height: 377px;
 padding: 20px;
 
-margin: 20px; 
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+
+.column-description{
+    width: 70%;
 }
